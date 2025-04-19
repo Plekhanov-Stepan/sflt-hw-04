@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: plekhas
+    groups: sudo
+    shell: /bin/bash
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDS5IBdhhwujSJyd1m7SggG5e3Pogu8/hwD2tG9GFF9JjS76CGgvbb/qOew4DbofY5EEjYS+7ERfimJYnKbiLrlJcllACgR57YfqMBX7v9sMXnbQpmyibdgPDNPABBCU7wOPjixaJRKMDbWSqRG22FbDQARyI+6aMg4T0Uc/S3ZDwZkrCS+245OSQPlwQ4zrQWO9dAdbyf9srjmSL2oHEaCO60t8Y2gaq3TK1B7UzaayEichcjnOtw6wbjWbi1PlRe04VelGflll4t3tub44UQQvM4jC4dJYyy66JJtFhkQZ4CnEhZ8SOkbNSXt6rWwI9w7KwpYwOC7dWAdWy1C6IQsYaLQhfauN0CbbVKpVO4gHsaAbTWxglx4vSwdQbRxkLi/oNieWGj+/pR/i7S1qCQRcIMaUktlxubeNizEDIAfxvgfmdRPaR+YOvGJ+2feXWQt3mg9ADA2Ww11OLoTYbm+6MOOpz/EESAhcHJlMadtQu+j0rM3MWsby9Qsva4/0AM= plekhas@vm-master
