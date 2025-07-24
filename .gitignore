@@ -1,0 +1,7 @@
+.terraform/
+cloud-init.yml
+.terraform.lock.hcl
+index.html.j2
+playbook4.yaml
+terraform.tfstate
+terraform.tfstate.backup
